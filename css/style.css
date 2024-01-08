@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+#banner {
+    background: url('../resources/Banner\ Image.png');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 2, 17, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h3 {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 72px;
+    color: #fff;
+    margin: 15px 0;
+    font-family: 'Merriweather', serif;
+}
+
+/* 65% OFF  */
+#discouent-off {
+    padding: 50px 0;
+}
+
+.offwe-title {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.offwe-title h2 {
+    font-size: 88px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #FF0404;
+    padding: 20px 0;
+}
+
+.offwe-title h4 {
+    color: #FF0404;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.offwe-title h5 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 0 20px;
+}
+
+.offer-image {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Welcome to midnight party  */
+#welcome {
+    background: url('../resources/Vectorrr.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+#welcome::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, black, transparent);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: -1;
+}
+
+.welcome-text {
+    color: #fff;
+    width: 50%;
+    margin: auto 0 0 160px;
+    padding: 100px 0;
+}
+
+.welcome-text h3 {
+    font-size: 64px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    width: 71%;
+    color: #fff;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    color: lightgrey;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.welcome-text button {
+    border: 0;
+    outline: none;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.new-year-image {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-30%, -50%);
+}
+
+/* Date Time */
+#date {
+    padding: 50px 0;
+    text-align: center;
+    background: #ffb6c133;
+}
+
+#date h5 span {
+    color: #FF0404;
+}
+
+#date h5 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#date button {
+    background: #FF0404;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin: 35px 0 0 0;
+    cursor: pointer;
+}
+
+/* circel part */
+
+#circel {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0 50px;
+}
+
+.circel-left h5 {
+    font-size: 24px;
+    color: #FF0404;
+    font-family: 'Inter', sans-serif;
+}
+
+.circel-left h2 {
+    font-size: 48px;
+    padding: 10px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.circel-left p {
+    font-size: 20px;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+}
+
+.circel-left {
+    width: 27.3%;
+    margin: auto;
+}
+
+.circel-center img {
+    width: 100%;
+    background-size: cover;
+}
+
+.circel-center {
+    border: 10px solid #FF0404;
+    border-radius: 50%;
+    padding: 25px;
+    width: 33.3%;
+}
+
+.circel-right h2 {
+    color: #FF0404;
+    font-size: 48px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.circel-right p {
+    color: grey;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.circel-right img {
+    padding: 20px 0 0 0;
+}
+
+.circel-right {
+    width: 20.3%;
+    margin: auto;
+}
+
+/* 50% OFF */
+#off-two {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title h5 {
+    font-size: 24px;
+}
+
+.title h2 {
+    font-size: 72px;
+    padding: 10px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.title h2 span {
+    color: #FF0404;
+}
+
+.title p {
+    color: grey;
+    font-size: 20px;
+    width: 65%;
+    margin: auto;
+}
+
+
+
+.off-two-image {
+    width: 100%;
+    height: 100%;
+}
+
+.off-two-image img {
+    /* width: 50%; */
+    background-size: cover;
+    height: 112px;
+}
+
+.offer-two-image {
+    display: flex;
+    /* margin: auto; */
+    padding: 40px 0;
+}
+
+.image-left {
+    /* width: 50%; */
+    margin: 0 auto;
+    height: 100%;
+}
+
+.image-right {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottom-image {
+    position: relative;
+}
+
+.bottom-image img {
+    width: 96%;
+    position: absolute;
+    left: 11px;
+    top: -275px;
+    z-index: -1;
+}
+
+.discouent-img {
+    position: relative;
+}
+
+.discouent-img img {
+    position: absolute;
+    right: 215px;
+    bottom: 300px;
+    transform: translateX(-50%);
+    width: 20%;
+}
+
+/* Our Awesome Portfolio */
+
+.Portfolio-title h5 {
+    font-size: 24px;
+    color: #FF0404;
+    font-weight: 500;
+}
+
+.Portfolio-title h3 {
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    padding: 15px 0;
+}
+
+.Portfolio-title p {
+    font-size: 20px;
+    color: grey;
+    width: 70%;
+}
+
+.Portfolio-title {
+    padding: 40px;
+}
+
+.Portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Portfolio-list-iteams img {
+    margin: 20px;
+}
+
+.Portfolio-list-iteams {
+    position: relative;
+    transition: all linear 0.5s;
+    width: 31.6%;
+}
+
+.overlay {
+    width: 95.5%;
+    height: 91%;
+    background: rgb(17, 9, 9, 0.5);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 20px;
+    transform: scale(0);
+    transition: all linear 0.5s;
+}
+
+.overlay a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.Portfolio-list-iteams:hover .overlay {
+    transform: scale(1);
+}
+
+/* Subscribe Newsletter */
+
+#news-letter {
+    text-align: center;
+    padding: 70px 0 50px;
+    background: #ffb6c133;
+    margin: 70px 0 50px;
+}
+
+#news-letter h3 {
+    font-size: 48px;
+    padding: 20px 0;
+}
+
+#news-letter p {
+    font-size: 20px;
+    color: grey;
+    width: 70%;
+    margin: auto;
+}
+
+.submit-btn {
+    width: 50%;
+    margin: 45px auto;
+    padding: 18px;
+    border-radius: 35px;
+    position: relative;
+    background: #fff;
+}
+
+.Subscribe {
+    background: red;
+    text-decoration: none;
+    padding: 17px 50px;
+    font-size: 20px;
+    color: #ffff;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 2;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.user-email {
+    width: 60%;
+    text-align: left;
+    margin: 0 420px 0 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+}
+
+.fleft h5 {
+    font-size: 22px;
+    width: 60%;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.fleft {
+    margin: 30px 0;
+}
+
+.fright {
+    margin: 30px 0;
+}
+
+.fright h5 {
+    font-size: 22px;
+    margin: 0 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.fright h5 img {
+    padding: 0 10px;
+    margin: -5px 0;
+}
+
+.footer-center {
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid grey;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-center img {
+    margin: 0 10px;
+}
+
+.copy-right {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.copy-right h6 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+}
